@@ -1,7 +1,7 @@
 // refers the internal server module that we exported
 var server = require("./server");
 var router = require("./router");
-var requestHandlers = require("");
+var requestHandlers = require("./requestHandlers");
 
 var handle = {};
 handle["/"] = requestHandlers.start;
