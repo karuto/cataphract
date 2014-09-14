@@ -9,7 +9,6 @@ function start(response) {
     response.end();
   });
 
-
 }
 
 function upload(response) {
